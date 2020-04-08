@@ -7,10 +7,13 @@
 		</fileset>
 	</path>
 	
+
+
 	<target name="init">
 		<mkdir dir="build/classes"/>
 		<mkdir dir="dist" />
 	</target>
+
 	
 	<target name="compile" depends="init" >
 		<javac destdir="build/classes" debug="true" srcdir="src">
